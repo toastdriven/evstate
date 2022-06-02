@@ -1,0 +1,35 @@
+{
+  "name": "evstate",
+  "version": "1.0.0",
+  "description": "Event-based finite state machines",
+  "main": "src/index.js",
+  "type": "module",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toastdriven/evstate.git"
+  },
+  "keywords": [
+    "fsm",
+    "state",
+    "machine",
+    "finite",
+    "promise"
+  ],
+  "author": "Daniel Lindsley",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/toastdriven/evstate/issues"
+  },
+  "homepage": "https://github.com/toastdriven/evstate#readme",
+  "devDependencies": {
+    "mocha": "^9.1.3",
+    "jsdoc": "^3.6.7"
+  },
+  "dependencies": {}
+}
